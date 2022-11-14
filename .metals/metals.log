@@ -444,3 +444,270 @@ Nov 14, 2022 2:03:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 13696
 2022.11.14 02:03:59 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\WebSocketsController.scala
 2022.11.14 02:04:29 INFO  shutting down Metals
+2022.11.14 02:09:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-projects\wordpress-api\.metals\lsp.trace.json or C:\Users\NaBi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.14 02:09:12 INFO  logging to file E:\scala-projects\wordpress-api\.metals\metals.log
+2022.11.14 02:09:12 INFO  Started: Metals version 0.11.9 in workspace 'E:\scala-projects\wordpress-api' for client Visual Studio Code 1.73.1.
+2022.11.14 02:09:24 INFO  time: initialize in 12s
+2022.11.14 02:09:25 WARN  Build server is not auto-connectable.
+2022.11.14 02:09:25 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 02:09:25 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:09:39 INFO  no build target found for E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala. Using presentation compiler with project's scala-library version: 3.2.0
+Nov 14, 2022 2:09:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Nov 14, 2022 2:09:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2022.11.14 02:09:49 INFO  time: code lens generation in 17s
+2022.11.14 02:09:49 INFO  time: code lens generation in 18s
+2022.11.14 02:09:49 INFO  time: code lens generation in 22s
+2022.11.14 02:09:49 INFO  time: code lens generation in 19s
+2022.11.14 02:09:49 INFO  time: code lens generation in 8.26s
+2022.11.14 02:09:49 INFO  time: code lens generation in 8.35s
+2022.11.14 02:09:49 INFO  time: code lens generation in 8.24s
+2022.11.14 02:10:01 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:10:34 WARN  no build target for: E:\scala-projects\wordpress-api\app\utils\CustomActorFlow.scala
+2022.11.14 02:10:36 WARN  no build target for: E:\scala-projects\wordpress-api\app\utils\CustomActorFlow.scala
+2022.11.14 02:10:41 WARN  no build target for: E:\scala-projects\wordpress-api\app\utils\CustomActorFlow.scala
+2022.11.14 02:10:41 WARN  no build target for: E:\scala-projects\wordpress-api\app\utils\CustomActorFlow.scala
+2022.11.14 02:10:43 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:11:46 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.11.14 02:22:43 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:22:57 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:23:47 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 02:24:26 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 02:25:13 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:29:28 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:29:59 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 02:30:12 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:13:55 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:14:18 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:15:37 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:17:05 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:17:56 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:18:57 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:18:59 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:23:10 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:23:19 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:23:39 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\hostConnectDto.scala
+2022.11.14 03:23:40 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\hostConnectDto.scala
+2022.11.14 03:24:14 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:24:20 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:24:26 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:25:11 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:40:22 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:41:58 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:42:00 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 3:42:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1417
+2022.11.14 03:43:06 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:43:32 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:43:41 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:43:56 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:44:07 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:45:03 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:45:28 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-3-thread-3" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.11.14 03:46:22 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:46:32 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:47:15 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:48:37 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:50:10 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:50:58 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 03:51:19 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 3:51:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2227
+Nov 14, 2022 4:05:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2271
+2022.11.14 04:05:37 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:06:56 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:07:40 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:07:58 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:08:08 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:08:36 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:09:03 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 4:13:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2636
+Nov 14, 2022 4:19:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2710
+Exception in thread "pool-3-thread-4" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.11.14 04:20:40 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:24:09 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Exception in thread "pool-3-thread-5" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.11.14 04:24:32 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:24:52 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 4:26:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3119
+Nov 14, 2022 4:26:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 122 is not a valid line number, allowed [0..117]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionInputOffset.toOffset(CommonMtagsEnrichments.scala:602)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toOriginal(TokenEditDistance.scala:256)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrenceQuery(DefinitionProvider.scala:172)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:198)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2600)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2596)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1490)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1489)
+	... 15 more
+
+2022.11.14 04:26:42 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:27:08 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:27:10 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:27:43 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:27:48 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:29:22 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:29:27 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:30:02 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:30:08 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 4:32:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3423
+2022.11.14 04:32:39 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:32:41 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 04:43:56 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 5:18:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3543
+2022.11.14 05:19:10 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:19:17 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Exception in thread "pool-3-thread-6" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-3-thread-7" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.11.14 05:19:23 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:20:21 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:20:33 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:20:44 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:21:33 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 5:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3932
+2022.11.14 05:21:56 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:22:14 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:22:14 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:22:21 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:22:25 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:22:38 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:22:47 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 5:37:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.14 05:39:25 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:39:50 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Exception in thread "pool-3-thread-8" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-3-thread-9" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.11.14 05:51:25 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 05:51:28 WARN  no build target for: E:\scala-projects\wordpress-api\build.sbt
+2022.11.14 07:58:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-projects\wordpress-api\.metals\lsp.trace.json or C:\Users\NaBi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.14 07:58:52 INFO  logging to file E:\scala-projects\wordpress-api\.metals\metals.log
+2022.11.14 07:58:52 INFO  Started: Metals version 0.11.9 in workspace 'E:\scala-projects\wordpress-api' for client Visual Studio Code 1.73.1.
+2022.11.14 07:59:00 INFO  time: initialize in 8.62s
+2022.11.14 07:59:02 WARN  Build server is not auto-connectable.
+2022.11.14 07:59:02 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 07:59:02 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\hostConnectDto.scala
+2022.11.14 07:59:27 INFO  no build target found for E:\scala-projects\wordpress-api\app\models\hostConnectDto.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.14 07:59:50 INFO  time: code lens generation in 43s
+2022.11.14 08:14:01 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 08:14:03 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 08:15:59 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 08:16:35 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala

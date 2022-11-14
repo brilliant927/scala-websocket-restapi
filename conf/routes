@@ -6,6 +6,7 @@
 # An example controller showing a sample home page
 
 POST /api/hostconnect controllers.HomeController.hostConnect
+GET /api/getposts controllers.HomeController.getPosts
 GET   /   controllers.HomeController.socket
 
 # Map static resources from the /public folder to the /assets URL path
