@@ -715,3 +715,122 @@ Nov 14, 2022 8:29:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Nov 14, 2022 8:29:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.11.14 08:30:26 INFO  shutting down Metals
+2022.11.14 08:30:27 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.11.14 08:32:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-projects\wordpress-api\.metals\lsp.trace.json or C:\Users\NaBi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.14 08:32:50 INFO  logging to file E:\scala-projects\wordpress-api\.metals\metals.log
+2022.11.14 08:32:50 INFO  Started: Metals version 0.11.9 in workspace 'E:\scala-projects\wordpress-api' for client Visual Studio Code 1.73.1.
+2022.11.14 08:32:54 INFO  time: initialize in 4.13s
+2022.11.14 08:32:55 WARN  Build server is not auto-connectable.
+2022.11.14 08:32:55 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 08:33:07 INFO  no build target found for E:\scala-projects\wordpress-api\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.14 11:22:17 INFO  shutting down Metals
+2022.11.14 11:22:18 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.11.14 20:26:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-projects\wordpress-api\.metals\lsp.trace.json or C:\Users\NaBi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.14 20:26:38 INFO  logging to file E:\scala-projects\wordpress-api\.metals\metals.log
+2022.11.14 20:26:38 INFO  Started: Metals version 0.11.9 in workspace 'E:\scala-projects\wordpress-api' for client Visual Studio Code 1.73.1.
+2022.11.14 20:27:20 INFO  time: initialize in 42s
+2022.11.14 20:27:25 WARN  Build server is not auto-connectable.
+2022.11.14 20:27:25 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 20:27:59 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\hostConnectDto.scala
+2022.11.14 20:28:11 WARN  no build target for: E:\scala-projects\wordpress-api\build.sbt
+2022.11.14 20:28:17 WARN  no build target for: E:\scala-projects\wordpress-api\build.sc
+2022.11.14 20:29:02 INFO  no build target found for E:\scala-projects\wordpress-api\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.2.0
+Nov 14, 2022 8:29:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2022.11.14 20:29:13 INFO  time: code lens generation in 1m48s
+2022.11.14 20:29:13 INFO  time: code lens generation in 7.25s
+2022.11.14 20:29:13 INFO  time: code lens generation in 7.47s
+2022.11.14 20:29:13 INFO  time: code lens generation in 7.48s
+2022.11.14 20:29:13 INFO  time: code lens generation in 55s
+2022.11.14 20:29:13 INFO  time: code lens generation in 55s
+2022.11.14 20:29:13 INFO  time: code lens generation in 1m2s
+2022.11.14 20:29:13 INFO  time: code lens generation in 1m12s
+2022.11.14 20:29:13 INFO  time: code lens generation in 1m13s
+2022.11.14 20:29:13 INFO  time: code lens generation in 1m17s
+2022.11.14 20:35:15 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 20:45:52 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 20:47:58 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 20:48:10 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 20:48:43 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 8:49:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 254
+2022.11.14 20:56:53 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 8:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 338
+2022.11.14 20:58:10 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 20:58:15 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 20:59:15 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:00:14 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 21:00:29 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 21:00:39 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:01:35 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:01:40 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:02:12 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 21:04:40 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:05:08 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:06:46 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:06:48 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 9:07:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 960
+2022.11.14 21:08:05 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:09:40 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:09:44 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 9:10:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1126
+2022.11.14 21:10:35 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:11:38 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:11:52 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:12:55 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:14:06 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:14:08 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:14:50 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:18:17 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:18:33 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 9:18:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1602
+2022.11.14 21:18:57 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:19:23 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 9:19:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1700
+2022.11.14 21:19:55 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:20:04 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:20:12 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:23:07 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:24:20 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 21:24:22 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 21:24:27 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:25:58 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:27:26 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:27:29 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:27:46 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:28:04 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:28:52 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 21:30:18 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:30:23 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+2022.11.14 21:30:24 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+2022.11.14 21:30:26 WARN  no build target for: E:\scala-projects\wordpress-api\app\models\MyWebSocketActor.scala
+Nov 14, 2022 9:30:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
