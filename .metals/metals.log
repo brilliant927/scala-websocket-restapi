@@ -711,3 +711,7 @@ Caused by: java.lang.InterruptedException
 2022.11.14 08:14:03 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
 2022.11.14 08:15:59 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
 2022.11.14 08:16:35 WARN  no build target for: E:\scala-projects\wordpress-api\app\controllers\HomeController.scala
+Nov 14, 2022 8:29:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 14, 2022 8:29:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
